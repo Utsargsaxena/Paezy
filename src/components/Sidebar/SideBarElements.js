@@ -6,8 +6,17 @@ import {Link as LinkR} from 'react-router-dom'
 
 
 export const SidebarContainer=styled.aside`
-
-`;
+display:flex;
+position:fixed;
+z-index:999;
+width:100%;
+background:#0d0d0d;
+display:grid;
+align-items:center;
+transition:0.3 ease-in-out;
+opacity:${({isOpen})=> (isOpen ? '100%': '0')};
+top:${({isOpen})=> (isOpen ? '0': '-100%')};
+`
 
 export const CloseIcon = styled(FaTimes)`
 color:#fff;
