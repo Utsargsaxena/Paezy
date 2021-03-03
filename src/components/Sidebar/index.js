@@ -1,15 +1,15 @@
 import React from 'react'
 import {SidebarContainer,Icon,CloseIcon,SideBtnWrap,SidebarLink,SidebarRoute,SidebarMenu,SidebarWrapper} from './SideBarElements';
 
-const Sidebar = ({isOpen,toggle}) => {
+const Sidebar = ({isOpen, toggle}) => {
     return (
-        <SidebarContainer isOpen={isOpen} onclick={toggle}>
-            <Icon onclick={toggle}>
+        <SidebarContainer  isOpen={isOpen} onClick ={toggle}>
+            <Icon onClick = {toggle}>
                 <CloseIcon/>
-            </Icon>
-            <SidebarWrapper>
+             </Icon>
+             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to='about'>About</SidebarLink>
+                    <SidebarLink to='about"'>About</SidebarLink>
                     <SidebarLink to='discover'>Discover</SidebarLink>
                     <SidebarLink to='services'>Services</SidebarLink>
                     <SidebarLink to='signup'>Sign Up</SidebarLink>
