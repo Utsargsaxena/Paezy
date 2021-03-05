@@ -58,17 +58,14 @@ export const HeroH1 = styled.h1`
 color:#fff;
 font-size:48px;
 text-align:center;
-margin-top:-100px;
 
 @media screen and (max-width: 768px){
     font-size:40px;
-    margin-top:-100px;
 
     }
     
 @media screen and (max-width: 480px){
     font-size:32px;
-    margin-top:-100px;
 
 }
 `
