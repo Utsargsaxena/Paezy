@@ -22,7 +22,7 @@ const HeroSection = () => {
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button to='/signup' onMouseEnter={onHover} onMouseLeave={onHover}>
-                        Get Started{ hover ? <ArrowForward/> : <ArrowRight/>}
+                        Get Started { hover ? <ArrowForward/> : <ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>
