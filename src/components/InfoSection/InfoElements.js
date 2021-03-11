@@ -71,7 +71,7 @@ margin-bottom:24px;
 font-size:48px;
 line-height:1.1;
 font-weight:600;
-color: ${({ LightText }) => (LightText ? '#010606' : '#f7f8fa')};
+color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
 margin-top:30px;
 
 @media screen and (max-width:480px){
